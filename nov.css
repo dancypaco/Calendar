@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('./nov-japan.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    text-shadow: 2px 2px 5px black;
+}
+
+p {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    text-shadow: .3px .3px 3px rgb(87, 86, 86);
+}
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .container a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: #f2f2f2;
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    background-color: rgba(211, 198, 198, 0.7);
+    border-radius: 10px;
+    overflow: hidden;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+a {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+a:hover {
+  background-color: #efaf47;
+}
+
+
+th, td {
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+th {
+    background-color: #ec981c;
+    color: rgb(255, 255, 255);
+}
+
+td {
+    background-color: white;
+}
+
+td:hover {
+    background-color: #e6e6e6;
+}
+
+.current-month {
+    background-color: #36C2FF;
+    color: white;
+}
+
+
+
+
+
+
